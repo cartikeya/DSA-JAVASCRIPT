@@ -1,5 +1,4 @@
 function gcd(a, b) {
-  // code here
   if (b === 0) return a;
   while (b != 0) {
     let r = a % b;
@@ -9,6 +8,10 @@ function gcd(a, b) {
   return a;
 }
 console.log(gcd(1_000_000_000, 2));
+
+
+
+
 
 // bruteforce approach
 function gcdb(a, b) {
@@ -20,3 +23,11 @@ function gcdb(a, b) {
     res--;
   }
 }
+// console.log(gcdb(2,4));
+
+
+function LCM(a,b){
+  return (a*b)/gcdb(a,b);
+}
+
+console.log(LCM(2,3));

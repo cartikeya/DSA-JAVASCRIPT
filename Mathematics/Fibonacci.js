@@ -38,7 +38,7 @@ for (let i = 0; i < n1; i++) {
 //   return b;
 // }
 
-// const n3 = 10;
+// const n3 = 100;
 // console.log("optimized fibonacci series: ");
 
 

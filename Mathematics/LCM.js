@@ -1,5 +1,5 @@
 function lcm(a, b) {
-  let res = Math.min(a, b);
+  let res = Math.max(a, b);
   let c = a * b;
   let temp = res;
   for (let i = res; i <= c; i++) {
@@ -11,4 +11,4 @@ function lcm(a, b) {
   return temp;
 }
 
-console.log(lcm(2,3))
+console.log(lcm(4,6))
